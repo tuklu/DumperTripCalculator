@@ -40,14 +40,14 @@ You can download the latest version of the app directly from the link above.
 
 - Built with Jetpack Compose
 - Material Design 3 implementation
-- Minimum SDK: Android 21 (Lollipop)
+- Minimum SDK: Android 24 (Lollipop)
 - Target SDK: Android 34
 - Written in Kotlin
 
 ## Installation Requirements
 
-- Android 5.0 (Lollipop) or higher
-- Approximately 5MB of storage space
+- Android 7.0 (Nougat) or higher
+- Approximately 10MB of storage space
 
 ## Permissions
 
