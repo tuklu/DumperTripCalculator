@@ -5,7 +5,7 @@ A modern Android app that helps construction professionals and contractors calcu
 ## Download
 
 <div align="left">
-<img src="https://github.com/tuklu/DumperTripCalculator/blob/main/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" alt="Dumper Trip Calculator Logo" width="90" height="90"/>
+<img src="https://github.com/tuklu/DumperTripCalculator/blob/main/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" alt="Dumper Trip Calculator Logo" width="95" height="95"/>
 </div>
 
 [![Download APK](https://img.shields.io/badge/Download-APK-green.svg)](https://github.com/tuklu/DumperTripCalculator/blob/main/app/release/app-release.apk?raw=true)
