@@ -45,3 +45,15 @@ class AppPreferences(private val context: Context) {
     suspend fun setDefaultCostPerTrip(value: Float) { context.dataStore.edit { it[Keys.defaultCostPerTrip] = value } }
     suspend fun setDefaultCapacityCubicMeters(value: Float) { context.dataStore.edit { it[Keys.defaultCapacityCubicMeters] = value } }
 }
+
+// Top-level helpers used by OnboardingScreen
+fun readIsOnboardingComplete(context: Context): Flow<Boolean> =
+    context.dataStore.data.map { it[booleanPreferencesKey("is_onboarding_complete")] ?: false }
+
+suspend fun saveOnboardingPrefs(context: Context, currencySymbol: String, currencyCode: String) {
+    context.dataStore.edit { prefs ->
+        prefs[stringPreferencesKey("currency_symbol")] = currencySymbol
+        prefs[stringPreferencesKey("currency_code")] = currencyCode
+        prefs[booleanPreferencesKey("is_onboarding_complete")] = true
+    }
+}
