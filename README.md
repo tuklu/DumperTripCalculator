@@ -14,12 +14,12 @@ You can download the latest version of the app directly from the link above.
 
 ## Features
 
-- 📏 Easy volume calculation with length, width, and height inputs
-- 🔄 Support for both metric (meters) and imperial (feet) units
-- 💰 Built-in cost estimation per trip
-- 🚛 Configurable dumper capacity settings
-- 🎨 Material You design with dynamic theming
-- ✨ Smooth animations and intuitive UI
+- Easy volume calculation with length, width, and height inputs
+- Support for both metric (meters) and imperial (feet) units
+- Built-in cost estimation per trip
+- Configurable dumper capacity settings
+- Material You design with dynamic theming
+- Smooth animations and intuitive UI
 
 ## How to Use
 
